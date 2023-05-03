@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Spotify Clone</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Konkhmer+Sleokchher&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--<link rel="stylesheet" href="css/all.css">-->
+    <!--<script src='main.js'></script>-->
+</head>
+<body>
+    <div id="body-container">
+        <div id="left-pane">
+            <section id="nav-pane-left">
+                <div id="nav-pane-div">
+                    <div id="nav-pane-contents">
+                        <div id="logo">
+                            <a href="#"><img height="35px" src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_RGB_White.png" alt=""></a>
+                        </div>
+                        <div id="icons-div">
+                            <div id="home_icon" class="menu-class">
+                                <a href="#" style="color: white;"><img class="icon-class" height="15px" src="home_icon.png" alt="">&nbsp;Home</a>
+                            </div>
+                            <div id="search_icon" class="menu-class">
+                                <a  href="#" id="search_img" class="fa fa-magnifying-glass">&nbsp;&nbsp;&nbsp;&nbsp;<span class="icon-text">Search</span></a> 
+                            </div>
+                            <div class="menu-class">
+                                <a href="#" class="fa fa-list">&nbsp;&nbsp;&nbsp;&nbsp;<span class="icon-text">Library</span></a>
+                            </div>
+                            <div class="menu-class">
+                                <br>
+                            </div>
+                            <div class="menu-class">
+                                <a href="#" class="fa fa-regular fa-square-plus">&nbsp;&nbsp;&nbsp;&nbsp;<span class="icon-text">Create Playlist</span></a>
+                            </div>
+                            <div class="menu-class">
+                                <a href="#" class="fa fa-regular fa-heart">&nbsp;&nbsp;&nbsp;&nbsp;<span class="icon-text">Liked Songs</span></a>
+                            </div>
+                            <div>
+                                <hr id="nav-pane-line">
+                                <br>
+                            </div> 
+                            <div id="download-link" class="menu-class">
+                                <a href="#" class="fa fa-sharp fa-regular fa-circle-down">&nbsp;&nbsp;&nbsp;&nbsp;<span class="icon-text">Install App</span></a>
+                            </div>                       
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div id="right-pane">
+            <section id="main-section">
+                <div>
+                    <header>
+                        <div id="navbar-top">
+                            <div id="nav-bar-arrows">
+                                <a href="#" class="fa-solid fa-circle-chevron-left nav-bar-arrow" ></a>
+                                <a href="#" class="fa-sharp fa-solid fa-circle-chevron-right nav-bar-arrow" style="margin-left: 10px;"></a> 
+                            </div>
+                            <div id="navbar-right-buttons">
+                                <button id="upgrade-button">
+                                    Upgrade
+                                </button>
+                                <button id="dp-button">
+                                    <img id="dp-img" src="dp2.png" alt=""><div id="dp-text">Musfira CM <i class="fa-solid fa-angle-down" style="color: #ffffff;"></i></div>
+                                </button>
+                            </div>
+                        </div>
+                    </header>
+                    <div id="Original-section" class="blocks-section">
+                        <div id="original-heading" class="blocks-heading">
+                                <a href="#" class="hover-underline heading-text">Spotify original & exclusive shows</a>
+                                <a href="#"class="hover-underline show-all-font">Show all</a>
+                        </div>
+                        <div id="original-blocks" class="blocks-container-class">
+                            <div id="original-block-1" class="block">
+                                <img src="block1-1.png" alt="" class="block-img">
+                                <div>
+                                    <font class="block-title">True Story Bro! with...</font>
+                                    <br>
+                                    <font class="block-subtitle">Spotify</font>
+                                </div>
+                            </div>
+                            <div id="original-block-2" class="block">
+                                <img src="block1-2.png" alt="" class="block-img">
+                                <div>
+                                    <font class="block-title">Chanakya Niti</font>
+                                    <br>
+                                    <font class="block-subtitle">Kiran Chavda</font>
+                                </div>
+                            </div>
+                            <div id="original-block-3" class="block">
+                                <img src="block1-3.png" alt="" class="block-img">
+                                <div>
+                                    <font class="block-title">The Sex Podcast by...</font>
+                                    <br>
+                                    <font class="block-subtitle">Leeza Mangaldas</font>
+                                </div>
+                            </div>
+                            <div id="original-block-4" class="block">
+                                <img src="block1-4.png" alt="" class="block-img">
+                                <div>
+                                    <font class="block-title">The Horror Show b...</font>
+                                    <br>
+                                    <font class="block-subtitle">TMV Studios</font>
+                                </div>
+                            </div>
+                            <div id="original-block-5" class="block">
+                                <img src="block1-5.png" alt="" class="block-img">
+                                <div>
+                                    <font class="block-title">Gopi Sudhakar Enn...</font>
+                                    <br>
+                                    <font class="block-subtitle">Spotify Studios</font>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div id="recommended-section"  class="blocks-section">
+                        <div id="recommended-heading" class="blocks-heading">
+                                <a href="#" class="hover-underline heading-text">Recommended for you</a>
+                                <a href="#"class="hover-underline show-all-font">Show all</a>
+                        </div>
+                        <div id="recommended-blocks" class="blocks-container-class">
+                            <div id="recommended-block-1" class="block">
+                                <img src="block2-1.png" alt="" class="block-img">
+                                <div>
+                                    <font class="block-title">Indie India</font>
+                                    <br>
+                                    <font class="block-subtitle">Best of the indian Indie scene. Cover-Prateek...</font>
+                                </div>
+                            </div>
+                            <div id="recommended-block-2" class="block">
+                                <img src="block2-2.png" alt="" class="block-img">
+                                <div>
+                                    <font class="block-title">RAP 91</font>
+                                    <br>
+                                    <font class="block-subtitle">Best of Hip-Hop from India. Cover Emiway...</font>
+                                </div>
+                            </div>
+                            <div id="recommended-block-3" class="block">
+                                <img src="block2-3.png" alt="" class="block-img">
+                                <div>
+                                    <font class="block-title">Kollywood Cream</font>
+                                    <br>
+                                    <font class="block-subtitle">Finest Collection of Tamil Music from the past 10...</font>
+                                </div>
+                            </div>
+                            <div id="recommended-block-4" class="block">
+                                <img src="block2-4.png" alt="" class="block-img">
+                                <div>
+                                    <font class="block-title">Bollywood Butter</font>
+                                    <br>
+                                    <font class="block-subtitle">B bole tho biggest blockbusters,right her...</font>
+                                </div>
+                            </div>
+                            <div id="recommended-block-5" class="block">
+                                <img src="block2-5.png" alt="" class="block-img">
+                                <div>
+                                    <font class="block-title">Mint India</font>
+                                    <br>
+                                    <font class="block-subtitle">Trending dance hits in India. Cover: Deepika...</font>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div id="Featured-section"  class="blocks-section">
+                        <div id="featured-heading" class="blocks-heading">
+                                <a href="#" class="hover-underline heading-text">Featured Charts</a>
+                                <a href="#"class="hover-underline show-all-font">Show all</a>
+                        </div>
+                        <div id="featured-blocks" class="blocks-container-class">
+                            <div id="featured-block-1" class="block">
+                                <img src="block3-1.png" alt="" class="block-img">
+                                <div>
+                                    <font class="block-title">Top Songs-Global</font>
+                                    <br>
+                                    <font class="block-subtitle">Your weekly update of the most played tracks...</font>
+                                </div>
+                            </div>
+                            <div id="featured-block-2" class="block">
+                                <img src="block3-2.png" alt="" class="block-img">
+                                <div>
+                                    <font class="block-title">Top Songs-India</font>
+                                    <br>
+                                    <font class="block-subtitle">Your weekly update of the most played tracks...</font>
+                                </div>
+                            </div>
+                            <div id="featured-block-3" class="block">
+                                <img src="block3-3.png" alt="" class="block-img">
+                                <div>
+                                    <font class="block-title">Top 50-Global</font>
+                                    <br>
+                                    <font class="block-subtitle">Your daily update of the most played tracks righ...</font>
+                                </div>
+                            </div>
+                            <div id="featured-block-4" class="block">
+                                <img src="block3-4.png" alt="" class="block-img">
+                                <div>
+                                    <font class="block-title">Top 50-India</font>
+                                    <br>
+                                    <font class="block-subtitle">Your daily update of the most played tracks righ...</font>
+                                </div>
+                            </div>
+                            <div id="featured-block-5" class="block">
+                                <img src="block3-5.png" alt="" class="block-img">
+                                <div>
+                                    <font class="block-title">Viral 50-Global</font>
+                                    <br>
+                                    <font class="block-subtitle">Your daily update of the most viral tracks right...</font>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div id="Try-section"  class="blocks-section">
+                        <div id="try-heading" class="blocks-heading">
+                                <a href="#" class="hover-underline heading-text">Featured Charts</a>
+                                <a href="#"class="hover-underline show-all-font">Show all</a>
+                        </div>
+                        <div id="try-blocks" class="blocks-container-class">
+                            <div id="try-block-1" class="block">
+                                <img src="block4-1.png" alt="" class="block-img">
+                                <div>
+                                    <font class="block-title">The Joe Rogan Exp...</font>
+                                    <br>
+                                    <font class="block-subtitle">Joe Rogan</font>
+                                </div>
+                            </div>
+                            <div id="try-block-2" class="block">
+                                <img src="block4-2.png" alt="" class="block-img">
+                                <div>
+                                    <font class="block-title">The Ranveer Show</font>
+                                    <br>
+                                    <font class="block-subtitle">BeerBiceps</font>
+                                </div>
+                            </div>
+                            <div id="try-block-3" class="block">
+                                <img src="block4-3.png" alt="" class="block-img">
+                                <div>
+                                    <font class="block-title">Decode Dil with Ektha</font>
+                                    <br>
+                                    <font class="block-subtitle">Spotify Studios</font>
+                                </div>
+                            </div>
+                            <div id="try-block-4" class="block">
+                                <img src="block4-4.png" alt="" class="block-img">
+                                <div>
+                                    <font class="block-title">Pretkotha-Bengali...</font>
+                                    <br>
+                                    <font class="block-subtitle">Gaurab Tapadar</font>
+                                </div>
+                            </div>
+                            <div id="try-block-5" class="block">
+                                <img src="block4-5.png" alt="" class="block-img">
+                                <div>
+                                    <font class="block-title">The Stories of Mah...</font>
+                                    <br>
+                                    <font class="block-subtitle">Sudipta Bhawmik</font>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="footer-links">
+                            <div id="footer-link-column1">
+                                <div id="footer-heading1" class="footer-heading">Company</div>
+                                <a href="#" class="footer-link-class">About</a>
+                                <br>
+                                <a href="#" class="footer-link-class">Jobs</a>
+                                <br>
+                                <a href="#" class="footer-link-class">For the Record</a>
+                            </div>
+                            <div id="footer-link-column2">
+                                <div id="footer-heading2" class="footer-heading">Communities</div>
+                                <a href="#" class="footer-link-class">For Artists</a>
+                                <br>
+                                <a href="#" class="footer-link-class">Developers</a>
+                                <br>
+                                <a href="#" class="footer-link-class">Advertising</a>
+                                <br>
+                                <a href="#" class="footer-link-class">Investors</a>
+                                <br>
+                                <a href="#" class="footer-link-class">Vendors</a>
+                                <br>
+                                <a href="#" class="footer-link-class">Spotify for Work</a>
+                            </div>
+                            <div id="footer-link-column3">
+                                <div id="footer-heading3" class="footer-heading">Useful links</div>
+                                <a href="#" class="footer-link-class">Support</a>
+                                <br>
+                                <a href="#" class="footer-link-class">Free Mobile App</a>
+                            </div>    
+                            <div id="footer-icons">
+                                <button class="footer-button"><i class="fa-brands fa-instagram"></i></button>
+                                <button class="footer-button"><i class="fa-brands fa-twitter"></i></button>
+                                <button class="footer-button"><i class="fa-brands fa-facebook"></i></button>
+                            </div>
+                        </div>
+                        <hr id="footer-line">   
+                        <footer>
+                            <div id="footer-column1">
+                                <a href="#" class="footer-text-class">Legal</a>
+                                <a href="#" class="footer-text-class">Privacy Center</a>
+                                <a href="#" class="footer-text-class">Privacy Policy</a>
+                                <a href="#" class="footer-text-class">Cookies</a>
+                                <a href="#" class="footer-text-class">About Ads</a>
+                            </div>
+                            <div>© 2023 Spotify AB</div>
+                        </footer>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+</body>
+</html>
